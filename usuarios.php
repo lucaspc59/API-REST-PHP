@@ -47,8 +47,13 @@
             'usuario' => $novoUsuario
         ]);
 
+
+
     } elseif ($method === 'GET') {
-        echo json_encode(carregarUsuarios());
+
+        $usuarios = carregarUsuarios();
+        $usuariosFiltrados = removerDadosSensiveis($usuarios, ["senha"]);
+        echo json_encode($usuariosFiltrados);
 
     } else {
         responderErro('Método não permitido', 405);

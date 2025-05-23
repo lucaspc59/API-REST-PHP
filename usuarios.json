@@ -62,5 +62,37 @@
         "endereco": "Rua Exemplo, 123",
         "telefone": "11999555421",
         "senha": "$2y$10$kQfcC6XGg7xXImMTxYN\/ruCjwUy3RQWKNK4A15xvlKHUIEiW3WVCO"
+    },
+    {
+        "id": 9,
+        "nome": "Lima",
+        "email": "lucas12@email.com",
+        "endereco": "Rua Exemplo, 123",
+        "telefone": "11999555421",
+        "senha": "$2y$10$7oxCw8IO8U6oksrIOOY0VeCrPd6FYd1rJNn3VODtJPDcYlM3Pfs7K"
+    },
+    {
+        "id": 10,
+        "nome": "Lima",
+        "email": "lucas132@email.com",
+        "endereco": "Rua Exemplo, 123",
+        "telefone": "11999555421",
+        "senha": "$2y$10$p6ork9MH0fOQK8S.XRceKuF8pLTPzi1FAMmJ037\/iPb3d8j0Uy5zm"
+    },
+    {
+        "id": 11,
+        "nome": "Lima",
+        "email": "lucas1332@email.com",
+        "endereco": "Rua Exemplo, 123",
+        "telefone": "11999555421",
+        "senha": "$2y$10$6MD1vdYbDPIawHfoJ7YwK.l\/4nLOoJPa.DhnyrSdTo8.BUdyTMTAi"
+    },
+    {
+        "id": 12,
+        "nome": "Lima",
+        "email": "lucas13342@email.com",
+        "endereco": "Rua Exemplo, 123",
+        "telefone": "11999555421",
+        "senha": "$2y$10$0QNmpHUC0M0UyfRmkhxzLOIFZ7i6JNMxFiqwYdkdXUgPslnmHgVGS"
     }
 ]

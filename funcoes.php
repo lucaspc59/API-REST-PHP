@@ -28,6 +28,19 @@
         return false;
     }
 
+    // Função para filtrar dados sensíveis antes da exibição
+
+    function removerDadosSensiveis($usuarios, $chavesRemover) {
+        foreach ($usuarios as &$usuario) {
+            foreach ($chavesRemover as $chave) {
+                unset($usuario[$chave]);
+            }
+        }
+        return $usuarios;
+    }
+
+
+
     // Função para retorna o erro e encerrar
     function responderErro(string $mensagem, int $codigo = 400): void {
         http_response_code($codigo);
