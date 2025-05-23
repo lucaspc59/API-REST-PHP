@@ -1,0 +1,12 @@
+POST http://localhost/aula2/usuarios.php
+Content-Type: application/json
+
+
+{
+    "nome": "Lima",
+    "email": "lucas1@email.com",
+    "endereco": "Rua Exemplo, 123",
+    "telefone": "11999555421",
+    "senha": "323232"
+    
+}
