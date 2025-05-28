@@ -1,0 +1,26 @@
+[
+    {
+        "id": "4a260a3e-06c9-411b-a709-d2bd39339264",
+        "nome": "lucas",
+        "email": "saodkas@osakdsa.com",
+        "endereco": "osajdkioas 12",
+        "telefone": "31988423212",
+        "senha": "$2y$10$iWiMffIp1x3FfrBlbifrWOB.pGOdmwqOjJ\/Z3yJce00J8lcJV8tva"
+    },
+    {
+        "id": "34450f5b-4f44-40dd-8e85-75c4d40f81ad",
+        "nome": "lucas2",
+        "email": "dsadsa@osakd23sa.com",
+        "endereco": "osajdkioas 1234",
+        "telefone": "31988423",
+        "senha": "$2y$10$6RexGjV51k4GFOUcnGWmHeEBAu0jV11GSt6L24mnrcUBnrlKqGwry"
+    },
+    {
+        "id": "bf0f2bcf-34bd-4370-a386-6cac41746406",
+        "nome": "sadsa",
+        "email": "sadasd@sdsadas.com",
+        "endereco": "sadasdk 124",
+        "telefone": "39213213",
+        "senha": "$2y$10$O0LLXeBsnsLse7TgXnCqOOXmKsHvTIOVD6H08nBgJr8ADmFIBonvK"
+    }
+]
