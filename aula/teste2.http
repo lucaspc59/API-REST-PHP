@@ -1,8 +1,0 @@
-PUT http://localhost/aula/usuarios.php
-Content-Type: application/json
-
-{
-    "id": "820255b9-35e5-47c9-8876-0bbc08c6b44f",
-    "nome": "João Lima",
-    "telefone": "1"
-}
