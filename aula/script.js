@@ -36,8 +36,10 @@ async function carregarUsuarios() {
         <td>${usuario.nome}</td>
         <td>${usuario.email}</td>
         <td>
-            <button onclick="excluirUsuario('${usuario.id}')">Excluir</button>
-            <button onclick="atualizarUsuario('${usuario.id}')">Atualizar</button>
+            <div class="botoes-acao">
+                <button onclick="excluirUsuario('${usuario.id}')">Excluir</button>
+                <button onclick="atualizarUsuario('${usuario.id}')">Atualizar</button>
+            </div>
         </td>
     `;
         lista.appendChild(linha);
@@ -50,11 +52,11 @@ async function excluirUsuario(id) {
     const response = await fetch('usuarios.php', {
         method: 'DELETE',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id })
+        body: JSON.stringify({ id: id })
     });
 
     const data = await response.json();
-    alert(data.message);
+    alert(data.message || "Erro ao excluir usuário");
     carregarUsuarios();
 }
 

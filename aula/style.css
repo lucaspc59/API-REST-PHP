@@ -32,7 +32,7 @@ form input {
     border-radius: 4px;
 }
 
-form button {
+.botao-principal {
     width: 100%;
     margin-top: 15px;
     background-color: #b2b2b2;
@@ -43,9 +43,10 @@ form button {
     font-size: 16px;
 }
 
-form button:hover {
+.botao-principal:hover {
     background-color: #767676;
 }
+
 
 /* Tabela de usuários */
 table {
@@ -69,6 +70,7 @@ table th {
 
 /* Botões de ações */
 
+
 button {
     padding: 8px 12px;
     border: none;
@@ -86,6 +88,12 @@ td button {
 
 button:hover {
     opacity: 0.8
+}
+
+.botoes-acao {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 button:nth-child(1) {
