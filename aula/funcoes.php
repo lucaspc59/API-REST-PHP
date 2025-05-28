@@ -38,8 +38,6 @@
         return false;
     }
 
-
-
     // Função para retorna o erro e encerrar
     function responderErro(string $mensagem, int $codigo = 400): void {
         http_response_code($codigo);

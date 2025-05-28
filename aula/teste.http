@@ -8,5 +8,5 @@ Content-Type: application/json
     "endereco": "Rua Exemplo, 123",
     "telefone": "11999555421",
     "senha": "323232"
-    
+
 }
